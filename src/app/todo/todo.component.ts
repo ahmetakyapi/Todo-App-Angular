@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-todo',
@@ -6,10 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todo.component.css']
 })
 export class TodoComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  /* Eklenen todo */
+  public items = []
+
+  public newTodo: any
+
+  /* Input değerininin eklenmesi ve içi boş ise ekleme yapmasın. */
+  public addTodo() {
+    if ((this.newTodo == ' ', this.newTodo == null)) {
+    } else {
+      this.items.push(this.newTodo as never)
+      this.newTodo = ''
+    }
   }
 
+  /* Silinmesi gereken todo için */
+  public deleteTodo(index: any) {
+    this.items.splice(index, 1)
+  }
 }

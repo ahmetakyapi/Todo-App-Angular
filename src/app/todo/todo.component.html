@@ -1,1 +1,81 @@
-<p>todo works!</p>
+<div class="todo-container bg-info">
+  <div
+    class="row bg-primary justify-content-center align-items-center"
+    style="height: 60px"
+  >
+    <div class="text-light h3 justify-content-center text-center">ToDo App</div>
+  </div>
+
+  <div class="row mt-4" style="height: 80px">
+    <div class="col-3 d-none col-md-3 d-md-block"></div>
+    <div
+      class="
+        col-12 col-md-6
+        d-flex
+        justify-content-center
+        align-items-center
+        text-light
+        h3
+      "
+    >
+      <input
+        [(ngModel)]="newTodo"
+        type="text"
+        value=""
+        class="col-7 form-control"
+        style="width: 500px"
+      />
+
+      <button
+        (click)="addTodo()"
+        [disabled]="newTodo === ''"
+        class="btn btn-success text-light font-bold"
+        type="button 
+	  [disabled]"
+        style="margin-left: 40px"
+      >
+        ADD TODO
+      </button>
+    </div>
+
+    <div class="col-3 d-none col-md-3 d-md-block"></div>
+  </div>
+
+  <div
+    *ngFor="let x of items; let index = index"
+    class="row mt-1"
+    style="
+      height: 70px;
+      width: 40%;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 160px;
+    "
+  >
+    <div class="col-1 d-none col-md-2 d-md-block"></div>
+
+    <div
+      class="
+        col-12 col-md-6
+        bg-secondary
+        d-flex
+        justify-content-center
+        align-items-center
+        text-light
+        h3
+      "
+    >
+      <div class="col-9 text-light h3">{{ x }}</div>
+
+      <input
+        (click)="deleteTodo(index)"
+        type="button"
+        value="Delete"
+        class="col-2 btn btn-danger text-light font-weight-bold"
+      />
+    </div>
+  </div>
+</div>
