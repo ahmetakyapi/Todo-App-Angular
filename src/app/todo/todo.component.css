@@ -1,8 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
 }
 .todo-container {
   height: 100vh;
