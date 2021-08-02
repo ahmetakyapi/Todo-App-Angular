@@ -19,7 +19,7 @@ export class TodoComponent implements OnInit {
   public addTodo() {
     if (
       this.newTodo == ' ' ||
-      this.newTodo == null ||
+      this.newTodo.length <= 3 ||
       this.newTodo.trim().length === 0
     ) {
     } else {
