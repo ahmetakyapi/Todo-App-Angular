@@ -17,7 +17,11 @@ export class TodoComponent implements OnInit {
 
   /* Input değerininin eklenmesi ve içi boş ise ekleme yapmasın. */
   public addTodo() {
-    if ((this.newTodo == ' ', this.newTodo == null)) {
+    if (
+      this.newTodo == ' ' ||
+      this.newTodo == null ||
+      this.newTodo.trim().length === 0
+    ) {
     } else {
       this.items.push(this.newTodo as never)
       this.newTodo = ''
