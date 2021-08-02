@@ -15,7 +15,7 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'about',
+    path: '',
     component: AboutComponent
   },
   {

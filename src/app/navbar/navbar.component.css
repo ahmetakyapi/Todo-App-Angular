@@ -1,0 +1,48 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 20px;
+  color: #7b7fda;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.logo span {
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-left: 0.3rem;
+  color: darkgoldenrod;
+}
+
+.logo a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+}
+
+.sub-menu {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 12px;
+}
+
+.sub-menu a {
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sub-menu a:hover {
+  color: darkgoldenrod;
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
