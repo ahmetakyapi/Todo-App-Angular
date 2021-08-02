@@ -1,5 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.css';
-
+@import '../navbar/navbar.component.css';
 body {
   margin: 0;
   padding: 0;

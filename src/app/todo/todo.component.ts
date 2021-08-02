@@ -15,7 +15,7 @@ export class TodoComponent implements OnInit {
 
   public newTodo: any
 
-  /* Input değerininin eklenmesi ve içi boş ise ekleme yapmasın. */
+  /* Input değerininin eklenmesi, en az 4 karakterden oluşması ve içi boş ise ekleme yapmasın. */
   public addTodo() {
     if (
       this.newTodo == ' ' ||
