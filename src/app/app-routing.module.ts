@@ -15,10 +15,6 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
-  },
-  {
     path: 'todo',
     component: TodoComponent
   }
