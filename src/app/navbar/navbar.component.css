@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +22,19 @@
   font-size: 1.7rem;
   font-family: Tahoma, sans-serif;
   text-decoration: none;
+=======
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 20px;
+  color: #7b7fda;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.7rem;
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e
 }
 
 .logo span {
@@ -28,23 +42,37 @@
   font-size: 1.3rem;
   padding-left: 0.3rem;
   color: darkgoldenrod;
+<<<<<<< HEAD
   text-decoration: none;
+=======
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e
 }
 
 .logo a:hover {
   text-decoration: none;
+<<<<<<< HEAD
   opacity: 0.8;
   transition: all 0.4s ease-in;
+=======
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e
 }
 
 .sub-menu {
   padding: 1rem 2rem;
   cursor: pointer;
   text-align: center;
+<<<<<<< HEAD
   font-weight: 600;
   font-size: 16px;
   margin-top: 12px;
   font-family: Tahoma, sans-serif;
+=======
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 12px;
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e
 }
 
 .sub-menu a {
@@ -52,6 +80,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+<<<<<<< HEAD
   text-decoration: none;
   color: darkgoldenrod;
   font-weight: 800;
@@ -59,11 +88,20 @@
 
 .sub-menu a:hover {
   color: darkslateblue;
+=======
+}
+
+.sub-menu a:hover {
+  color: darkgoldenrod;
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e
   opacity: 0.8;
   transition: all 0.2s ease-in;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
 i {
   margin-right: 5px;
 }
+=======
+>>>>>>> ebe9d7e6fa0f32d7be7a66256c6fc4bfa2045e3e

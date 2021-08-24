@@ -10,7 +10,7 @@
   color: whitesmoke;
   border-radius: 0;
   font-weight: 700;
-  width: 12%;
+  width: 13%;
   height: 40px;
   top: 4%;
   margin-top: 3%;
@@ -26,6 +26,7 @@
 .content1-left {
   padding: 9%;
   background: #fcdada;
+  text-align: center;
 }
 .content1-right {
   padding: 9%;
